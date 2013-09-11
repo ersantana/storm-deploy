@@ -4,7 +4,13 @@
    [pallet.action.exec-script :as exec-script]))
 
 ;; this is 1.5.2. freezing version to ensure deploy is stable
-(def download-url "https://raw.github.com/technomancy/leiningen/a1fa43400295d57a9acfed10735c1235904a9407/bin/lein")
+;(def download-url "https://raw.github.com/technomancy/leiningen/a1fa43400295d57a9acfed10735c1235904a9407/bin/lein")
+;; lein 2.3.1
+(def download-url "https://raw.github.com/technomancy/leiningen/e624a768d398f1d6c8b98cb42ccbc22832100341/bin/lein")
+
+
+
+
 
 (defn install [request]
   (-> request
